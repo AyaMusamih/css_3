@@ -1,53 +1,64 @@
-.iphones{
+.iphones {
+    width: 80%;
     margin: auto;
 }
+
 .the-product {
-    width: 220px;
-    height: 320px;
+    height: 295px;
     border: solid gray 1px;
     padding-top: 10px;
+    padding-left: 10px;
     float: left;
     width: 20%;
+    margin: 5px;
+    font-family: Roboto;
+}
+
+h1 {
+    font-family: Roboto;
+    margin-left: 135px;
+}
+
+h2 {
+    margin-top: 1px;
+    font-size: 20px;
 }
 
 .the-product img {
-    width: 180px;
-    margin: auto;
-    display: block;
+    width: 224px;
 }
 
 .the-product button {
-    padding: 10px 40px;
+    padding: 7px 50px;
     color: white;
     background-color: blue;
+    margin-top: -10px;
 }
 
-.parg{
+.parg {
+    width: 220px;
     color: gray;
     font-size: 15px;
+    margin-top: -10px;
 }
-.first-price{
+
+.first-price {
     color: green;
 }
-.second-price{
+
+.second-price {
     color: red;
-    font-size: 15px;
+    font-size: 14px;
     text-decoration: line-through;
 }
 
-.the-product h2,
-.the-product p,
-.add {
-    padding-left: 10px;
-}
-.add{
-    float: left;
-}
+
 .second-price,
 .first-price {
     float: left;
-    width: 17%;
-    margin-top: 0;
+    width: 27%;
+    margin-top: -10px;
+
 }
 
 .clearfix {
