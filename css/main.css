@@ -1,0 +1,55 @@
+.iphones{
+    margin: auto;
+}
+.the-product {
+    width: 220px;
+    height: 320px;
+    border: solid gray 1px;
+    padding-top: 10px;
+    float: left;
+    width: 20%;
+}
+
+.the-product img {
+    width: 180px;
+    margin: auto;
+    display: block;
+}
+
+.the-product button {
+    padding: 10px 40px;
+    color: white;
+    background-color: blue;
+}
+
+.parg{
+    color: gray;
+    font-size: 15px;
+}
+.first-price{
+    color: green;
+}
+.second-price{
+    color: red;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+.the-product h2,
+.the-product p,
+.add {
+    padding-left: 10px;
+}
+.add{
+    float: left;
+}
+.second-price,
+.first-price {
+    float: left;
+    width: 30%;
+    margin-top: 0;
+}
+
+.clearfix {
+    clear: left;
+}
